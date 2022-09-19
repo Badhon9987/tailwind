@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+          @layer components{
+            .footer-links{
+                @apply border-b border-transparent hover:border-gray-300
+            }
+          }
+    </style>
+    <title>Tailwindbook- login</title>
+</head>
+<body class="">
+   
+    <section class="w-full mx-auto pb-32 lg:pb-32 pt-16 lg:pt-16 lg:pl-24 pl-8 lg:pr-24 pr-8 bg-gray-100">
+        <div class="flex flex-wrap">
+            <!-- left side  -->
+            <div class="w-full lg:w-1/2 lg:mt-12 lg:pt-16 lg:px-16 lg:py-12 lg:px-32 flex flex-col lg:gap-4 gap-4 text-center">
+              <h1 class="text-6xl text-blue-500 font-bold cursor-pointer xl:pr-80">tailwindbook</h1>
+              <p class="text-3xl sm:text-2xl xl:text-justify">Tailwindbook- helps you connect and share with the people in your life.</p>
+            </div>
+            <!-- right side -->
+            <div class="w-full mt-12 lg:mt-0 lg:w-1/2 flex flex-col gap-4 items-center lg:pr-32 lg:py-8">
+             <div class="w-full bg-white flex flex-col items-center gap-3 lg:w-4/4 xl:w-3/4 px-4 py-4 rounded-lg border border-gray-200 shadow-lg">
+                <input type="text" placeholder="Email or phone number" class="border border-gray-200 p-3 w-full rounded-lg text-xl 
+                placeholder-gray-300
+                focus:border-blue-500 focus:ring-blue-300  focus:placeholder-gray-200" autofocus>
+                <input type="password" placeholder="Password" class="border border-gray-200 p-3 w-full rounded-lg text-xl 
+                placeholder-gray-300
+                focus:border-blue-500 focus:ring-blue-300  focus:placeholder-gray-200" autofocus>
+                <button class="bg-blue-500 w-full py-3 font-bold text-xl text-white rounded-lg hover:bg-blue-600">Log in</button>
+                 
+                <a href="#" class="text-blue-500 text-sm my-4 hover:underline">Forgotten password?</a>
+                <hr class="w-full">
+                <div class="mt-4 mb-2">
+               <button class="bg-green-500 text-white w-full p-3 rounded-lg font-bold hover:bg-green-600">Create New Account</button>
+                </div>
+             </div>
+            <p class="text-sm"><a href="#" class="font-bold hover:underline">Create a Page</a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="bg-white w-full mt-16 lg:mt-0">
+           <div class="mx-auto container px-4 lg:px-32 xl:px-64">
+                <div class="flex flex-col divide-y divide-gray-200 pt-8 pb-16 gap-2">
+                    <ul class="flex flex-wrap gap-2 text-sm text-gray-500"> 
+                        <li><a href="" >English (UK)</a></li>
+                        <li><a href="" class="footer-links">বাংলা</a></li>
+                        <li><a href="" class="footer-links">অসমীয়া</a></li>
+                        <li><a href="" class="footer-links">हिन्दी</a></li>
+                        <li><a href="" class="footer-links">नेपाली</a></li>
+                        <li><a href="" class="footer-links">Bahasa Indonesia</a></li>
+                        <li><a href="" class="footer-links"العربية></a></li>
+                        <li><a href="" class="footer-links">中文(简体)</a></li>
+                        <li><a href="" class="footer-links">Bahasa Melayu</a></li>
+                        <li><a href="" class="footer-links">Español</a></li>
+                        <li><a href="" class="footer-links">Português (Brasil)</a></li>
+                    </ul>
+                    <ul class="flex flex-wrap gap-2 text-sm text-gray-500"> 
+                        <li><a href="" class="footer-links">Sign Up</a></li>
+                        <li><a href="" class="footer-links">Log in</a></li>
+                        <li><a href="" class="footer-links">Messenger</a></li>
+                        <li><a href="" class="footer-links">Facebook Lite</a></li>
+                        <li><a href="" class="footer-links">Watch</a></li>
+                        <li><a href="" class="footer-links">Places</a></li>
+                        <li><a href="" class="footer-links">Games</a></li>
+                        <li><a href="" class="footer-links">Marketplace</a></li>
+                        <li><a href="" class="footer-links">FacebookPay</a></li>
+                        <li><a href="" class="footer-links">Oculus</a></li>
+                        <li><a href="" class="footer-links">Portal</a></li>
+                        <li><a href="" class="footer-links">Instagram</a></li>
+                        <li><a href="" class="footer-links">Bullentin</a></li>
+                        <li><a href="" class="footer-links">Developers</a></li>
+                        <li><a href="" class="footer-links">Groups</a></li>
+                        <li><a href="" class="footer-links">Cookies</a></li>
+                        <li><a href="" class="footer-links">Help</a></li>
+                        <li><a href="" class="footer-links">Privacy</a></li>
+                        <li><a href="" class="footer-links">Create ad</a></li>
+                        <li><a href="" class="footer-links">About</a></li>
+                        <li><a href="" class="footer-links">Services</a></li>
+                    </ul>
+                </div>
+           </div>
+    </footer>
+
+</body>
+</html>
